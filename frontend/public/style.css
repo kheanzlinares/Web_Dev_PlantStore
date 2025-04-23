@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+
+body {
+  font-family: 'EB Garamond', serif;
+  align-content: center;
+
+}
+header{
+  height: 150px;
+  display: block;
+  align-content: center;
+}
+.header img{
+  padding: 30px;
+}
+h1,
+h2 {
+  font-weight: 700;
+  font-size: 50px;
+}
+.mb-3{
+  width: 500px;
+}
+p {
+  font-size: 25px
+}
+
+.float-center p{
+  font-size: 50px;
+}
+
+ul{
+  padding: 10px;
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
+  height: 63px;
+  letter-spacing: 2px; 
+}
+.card-img-top {
+  width: 100%;
+  object-fit:fill;
+}
+.card-img-top img{
+  width: 60%;
+  height: auto;
+}
+
+/* Product cards */
+
+.product-card {
+  box-shadow: 1px 1px 4px 0 rgb(30 30 30 / 16%);
+  background-color: #e9ecee;
+}
+
+.product-card img {
+  margin: auto;
+  display: block;
+  max-width: 200px;
+  max-height: 150px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .product-card img {
+    display: block;
+    width: 85px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    height: auto;
+    float: left;
+  }
+}
+.name{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.product-card p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+.product-card small {
+  color: #b3b3b3;
+  font-size: 0.8rem;
+}
+
+/* Social icons */
+
+.fa-brands:hover {
+  color: #929292;
+}
+
+.card-footer{
+  background-color: #fcec72d0;
+}
